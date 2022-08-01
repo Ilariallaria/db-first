@@ -1,0 +1,27 @@
+- Id: BIGINT,  PRIMARY_KEY(NOTNULL, UNIQUE, AUTOINCREMENT, INDEX)
+
+- Modello: VARCHAR(20), NOTNULL
+
+- Anno produzione: YEAR, NOTNULL
+
+- Cilindrata: FLOAT(5, 4), NULL
+
+- Potenza motore: TINYINT, NOTNULL
+
+- Carburante: VARCHAR(10), NOTNULL
+
+- km percorsi: MEDIUMINT, NOTNULL
+
+- Tipologia cambio: VARCHAR(20), NULL
+
+- n. proprietari: TINYINT,  NULL
+
+- Classe emissioni: TINYINT, NOTNULL
+
+- Scdenza revisione: DATE, NOTNULL
+
+- Targa: VARCHAR(7), PRIMARY_KEY(NOTNULL, UNIQUE)
+
+- Stato: TEXT, NULL
+
+- Prezzo: DECIMAL(5, 3), NOTNULL
